@@ -6,6 +6,7 @@ The book is expected to be published by fall 2018. Here are the links:
 - [Running containers](#running-containers)
 - [Authentication and authorization](#authentication-and-authorization)
 - [Communication](#communication)
+- [Secrets](#secrets)
 - [Apps](#apps)
 - [Securing the control plane](#securing-the-control-plane)
 - [References](#references)
@@ -94,6 +95,16 @@ Further reading:
 - [Kubernetes Security Context and Kubernetes Network Policy](https://sysdig.com/blog/kubernetes-security-psp-network-policy/) 
 - [Kubernetes Application Operator Basics](https://blog.openshift.com/kubernetes-application-operator-basics/) 
 
+## Secrets
+
+- Docs: [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
+- [Kubernetes secrets examples](http://kubernetesbyexample.com/secrets/)
+- [Dynamic secrets on Kubernetes pods using Hashicorp Vault](https://medium.com/@gmaliar/dynamic-secrets-on-kubernetes-pods-using-vault-35d9094d169)
+- [Managing Secrets on OpenShift – Vault Integration](https://blog.openshift.com/managing-secrets-openshift-vault-integration/)
+- [Using AWS KMS for application secrets in Kubernetes](https://medium.com/@mtreacher/using-aws-kms-for-application-secrets-in-kubernetes-149ffb6b4073)
+- [Injecting secrets with Aqua](https://blog.aquasec.com/injecting-secrets-kubernetes-hashicorp-vault-and-aqua-on-azure)
+- [Your secret's safe with me](https://www.youtube.com/watch?v=y5gfvEO_cjY)
+
 ## Apps
 
 Tooling:
@@ -106,7 +117,7 @@ Tooling:
 
 Further reading:
 
-- Docs: [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/), [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/), [Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
+- Docs: [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/), [Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
 - [Shipping in Pirate-Infested Waters: Practical Attack and Defense in Kubernetes](https://www.youtube.com/watch?v=ohTq0no0ZVU)
 - [Exploring container security: Isolation at different layers of the Kubernetes stack](https://cloudplatform.googleblog.com/2018/05/Exploring-container-security-Isolation-at-different-layers-of-the-Kubernetes-stack.html) 
 - [Security Best Practices for Kubernetes Deployment](https://kubernetes.io/blog/2016/08/security-best-practices-kubernetes-deployment/) 
