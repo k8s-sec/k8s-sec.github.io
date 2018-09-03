@@ -61,7 +61,7 @@ Tooling:
 Further reading:
 
 - [Kubernetes deep dive: API Server – part 1](https://blog.openshift.com/kubernetes-deep-dive-api-server-part-1/)
-- [Kubernetes Auth and Access Control](https://www.youtube.com/watch?v=WvnXemaYQ50)
+- [Kubernetes Auth and Access Control](https://www.youtube.com/watch?v=WvnXemaYQ50) by Eric Chiang
 - [Certifik8s: All You Need to Know About Certificates in Kubernetes](https://www.youtube.com/watch?v=gXz4cq3PKdg)
 
 ### Authentication
@@ -69,6 +69,7 @@ Further reading:
 - Docs: [Authentication](https://kubernetes.io/docs/admin/authentication/)
 - [Single Sign-On for Kubernetes: An Introduction](https://thenewstack.io/kubernetes-single-sign-one-less-identity/) by Joel Speed
 - [Let's Encrypt, OAuth 2, and Kubernetes Ingress](https://eng.fromatob.com/post/2017/02/lets-encrypt-oauth-2-and-kubernetes-ingress/) by Ian Chiles
+- [Comparing Kubernetes Authentication Methods](https://medium.com/@etienne_24233/comparing-kubernetes-authentication-methods-6f538d834ca7by) Etienne Dilocker
 
 ### Authorization
 
