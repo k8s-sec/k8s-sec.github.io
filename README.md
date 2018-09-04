@@ -1,4 +1,3 @@
-# Kubernetes Security
 
 The book is expected to be published by fall 2018. Here are the links:
 
@@ -168,3 +167,7 @@ Useful `kubectl` commands:
 - `kubectl create role`
 - `kubectl create rolebinding`
 - `kubectl auth can-i`
+
+---
+
+ The logo uses a padlock icon by [Freepik](http://www.freepik.com/) from www.flaticon.com and the Kubernetes logo kudos to the [CNCF](https://github.com/cncf/artwork/), The Linux Foundation.
