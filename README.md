@@ -32,9 +32,9 @@ Further reading:
 
 Tooling:
 
-- https://github.com/bgeesaman/kubeatf 
-- https://github.com/Shopify/kubeaudit
-- https://k8guard.github.io/ 
+- [bgeesaman/kubeatf](https://github.com/bgeesaman/kubeatf)
+- [https://github.com/Shopify/kubeaudit](https://github.com/Shopify/kubeaudit)
+- [k8guard.github.io/](https://k8guard.github.io/)
 
 ## Authentication and authorization
 
@@ -46,9 +46,9 @@ Further reading:
 
 Tooling:
 
-- https://github.com/coreos/dex 
-- https://github.com/liggitt/audit2rbac 
-- https://github.com/heptio/authenticator 
+- [coreos/dex](https://github.com/coreos/dex)
+- [liggitt/audit2rbac](https://github.com/liggitt/audit2rbac)
+- [heptio/authenticator](https://github.com/heptio/authenticator)
 
 ### Authentication
 
