@@ -48,27 +48,41 @@ Tooling:
 
 Introductions and overview resources for authn & authz in Kubernetes:
 
-- [Kubernetes deep dive: API Server – part 1](https://blog.openshift.com/kubernetes-deep-dive-api-server-part-1/)
+- [Kubernetes deep dive: API Server – part 1](https://blog.openshift.com/kubernetes-deep-dive-api-server-part-1/) by Stefan Schimanski and Michael Hausenblas
 - [Kubernetes Auth and Access Control](https://www.youtube.com/watch?v=WvnXemaYQ50) by Eric Chiang
-- [Certifik8s: All You Need to Know About Certificates in Kubernetes](https://www.youtube.com/watch?v=gXz4cq3PKdg)
+- [Webhook Mode](https://kubernetes.io/docs/reference/access-authn-authz/webhook/) via Kubernetes documentation
+- [Certifik8s: All You Need to Know About Certificates in Kubernetes](https://www.youtube.com/watch?v=gXz4cq3PKdg) by Alexander Brand,
+- RFC 7519 [JSON Web Token (JWT)](https://tools.ietf.org/html/rfc7519)
+- RFC 7617 [The 'Basic' HTTP Authentication Scheme](https://tools.ietf.org/html/rfc7617)
+- [X.509 certificates](https://en.wikipedia.org/wiki/X.509)
+- [OpenID Connect](https://openid.net/connect/)
+
+Tooling:
+
+- [jwt.io](https://jwt.io/)
+- [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/)
 
 ### Authentication
 
 Relevant pages in the official Kubernetes documentation:
 
 - [Authentication](https://kubernetes.io/docs/admin/authentication/)
+- [Authenticating with Bootstrap Tokens](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/)
 
 Further reading:
 
 - [Single Sign-On for Kubernetes: An Introduction](https://thenewstack.io/kubernetes-single-sign-one-less-identity/) by Joel Speed
 - [Let's Encrypt, OAuth 2, and Kubernetes Ingress](https://eng.fromatob.com/post/2017/02/lets-encrypt-oauth-2-and-kubernetes-ingress/) by Ian Chiles
 - [Comparing Kubernetes Authentication Methods](https://medium.com/@etienne_24233/comparing-kubernetes-authentication-methods-6f538d834ca7by) Etienne Dilocker
+- [k8s auth proxy example](http://uptoknow.blogspot.com/2017/06/kubernetes-authentication-proxy-example.html)
 
 Tooling:
 
+- [Keycloak](https://www.keycloak.org/)
 - [coreos/dex](https://github.com/coreos/dex)
 - [heptio/authenticator](https://github.com/heptio/authenticator)
 - [hashicorp/vault-plugin-auth-kubernetes](https://github.com/hashicorp/vault-plugin-auth-kubernetes)
+- [appscode/guard](https://github.com/appscode/guard)
 
 ### Authorization
 
