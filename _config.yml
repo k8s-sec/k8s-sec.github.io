@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Kubernetes Security
-description: Accompanying resources for the O'Reilly book
+description: Operating Kubernetes Clusters and Applications Safely
 show_downloads: false
 logo: /assets/img/logo.png
 google_analytics:
