@@ -4,7 +4,7 @@ Hello and welcome to Kubernetes Security, the resource center for the O'Reilly b
 
 The book is expected to be published by fall 2018. 
 
-Table of contents:
+### Table of contents
 
 - [Securing the cluster](#securing-the-cluster)
 - [Authentication and authorization](#authentication-and-authorization)
@@ -13,6 +13,8 @@ Table of contents:
 - [Secrets management](#secrets-management)
 - [Advanced topics](#advanced-topics)
 - [References](#references)
+
+---
 
 ## Securing the cluster
 
