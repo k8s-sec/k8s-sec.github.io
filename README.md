@@ -112,6 +112,9 @@ Further reading:
 - [Establishing Image Provenance and Security in Kubernetes](https://www.youtube.com/watch?v=zs-6YEUrJAM)
 - [Image Management & Mutability in Docker and Kubernetes](https://container-solutions.com/image-management-mutability-in-docker-and-kubernetes/) 
 - [Container security considerations in a Kubernetes deployment](https://thenewstack.io/container-security-considerations-kubernetes-deployment/)
+- [Using Docker tags to mess with people’s minds](https://medium.com/microscaling-systems/using-docker-tags-to-mess-with-peoples-minds-367bb2c93bd0)
+- [If you run SSHD in your Docker containers, you're doing it wrong!](https://jpetazzo.github.io/2014/06/23/docker-ssh-considered-evil/)
+- [Creating Effective Images](https://www.youtube.com/watch?v=pPsREQbf3PA)
 - [Building Container Images Securely on Kubernetes](https://blog.jessfraz.com/post/building-container-images-securely-on-kubernetes/)
 - [The OpenShift Build Process](https://docs.openshift.com/container-platform/3.9/security/build_process.html)
 - [Introducing Grafeas: An open-source API to audit and govern your software supply chain](https://cloudplatform.googleblog.com/2017/10/introducing-grafeas-open-source-api-.html)
@@ -120,12 +123,19 @@ Further reading:
 
 Tooling:
 
+- [National Vulnerability Database](https://nvd.nist.gov/)
 - [OpenSCAP tools](https://www.open-scap.org/tools/) 
 - [coreos/clair](https://github.com/coreos/clair) 
+- [aquasecurity/microscanner](https://github.com/aquasecurity/microscanner)
+- [Docker Registry Server](https://docs.docker.com/registry/deploying/)
+- [GitLab Container Registry](https://docs.gitlab.com/ee/user/project/container_registry.html)
+- [Red Hat Quay container registry](https://www.openshift.com/products/quay)
+- [Amazon Elastic Container Registry](https://aws.amazon.com/ecr/)
 - [theupdateframework/notary](https://github.com/theupdateframework/notary)
-- [in-toto](https://github.com/in-toto) 
-- [kelseyhightower/konfd](https://github.com/kelseyhightower/konfd) 
-- [weaveworks/flux](https://github.com/weaveworks/flux) 
+- [weaveworks/flux](https://github.com/weaveworks/flux)
+- [IBM/portieris](https://github.com/IBM/portieris)
+- [Grafeas](https://grafeas.io/)
+- [in-toto](https://in-toto.github.io/) 
 
 ## Running containers securely
 
@@ -171,6 +181,7 @@ Further reading:
 
 Tooling:
 
+- [kelseyhightower/konfd](https://github.com/kelseyhightower/konfd) 
 - [bitnami-labs/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)
 - [shyiko/kubesec](https://github.com/shyiko/kubesec)
 
