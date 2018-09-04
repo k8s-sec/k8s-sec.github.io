@@ -236,16 +236,18 @@ Tooling:
 
 ### Official Kubernetes documentation
 
-Kubernetes (v1.10) docs references relevant to security:
+API and resource references relevant to security (Kubernetes v1.11) docs:
 
-- [Namespace](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#namespace-v1-core)
-- [Secret](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#secret-v1-core)
-- [ResourceQuota](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#resourcequota-v1-core)
-- [ServiceAccount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#serviceaccount-v1-core)
-- [Role](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#role-v1-rbac-authorization-k8s-io) / [ClusterRole](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#clusterrole-v1-rbac-authorization-k8s-io)
-- [RoleBinding](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#rolebinding-v1-rbac-authorization-k8s-io) / [ClusterRoleBinding](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#clusterrolebinding-v1-rbac-authorization-k8s-io)
-- [PodSecurityPolicy](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#podsecuritypolicy-v1beta1-extensions)
-- [NetworkPolicy](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#networkpolicy-v1-networking-k8s-io)
+- [Namespace](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#namespace-v1-core)
+- [Secret](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#secret-v1-core)
+- [ResourceQuota](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#resourcequota-v1-core)
+- [ServiceAccount](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#serviceaccount-v1-core)
+- [Role](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#role-v1-rbac-authorization-k8s-io)
+- [ClusterRole](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#clusterrole-v1-rbac-authorization-k8s-io)
+- [RoleBinding](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#rolebinding-v1-rbac-authorization-k8s-io)
+- [ClusterRoleBinding](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#clusterrolebinding-v1-rbac-authorization-k8s-io)
+- [PodSecurityPolicy](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#podsecuritypolicy-v1beta1-extensions)
+- [NetworkPolicy](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/#networkpolicy-v1-networking-k8s-io)
 
 ### Useful `kubectl` commands
 
