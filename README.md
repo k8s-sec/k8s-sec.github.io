@@ -32,35 +32,35 @@ Further reading:
 
 Tooling:
 
-- [bgeesaman/kubeatf](https://github.com/bgeesaman/kubeatf)
-- [https://github.com/Shopify/kubeaudit](https://github.com/Shopify/kubeaudit)
-- [k8guard.github.io/](https://k8guard.github.io/)
+- [k8guard.github.io](https://k8guard.github.io/)
+- [aquasecurity/kube-hunter](https://github.com/aquasecurity/kube-hunter)
+- [bgeesaman/kubeatf](https://github.com/bgeesaman/kubeatf) 
 
 ## Authentication and authorization
 
-Further reading:
+Introductions and overview resources for authn & authz in Kubernetes:
 
 - [Kubernetes deep dive: API Server – part 1](https://blog.openshift.com/kubernetes-deep-dive-api-server-part-1/)
 - [Kubernetes Auth and Access Control](https://www.youtube.com/watch?v=WvnXemaYQ50) by Eric Chiang
 - [Certifik8s: All You Need to Know About Certificates in Kubernetes](https://www.youtube.com/watch?v=gXz4cq3PKdg)
 
-Tooling:
-
-- [coreos/dex](https://github.com/coreos/dex)
-- [liggitt/audit2rbac](https://github.com/liggitt/audit2rbac)
-- [heptio/authenticator](https://github.com/heptio/authenticator)
-
 ### Authentication
 
 Relevant pages in the official Kubernetes documentation:
 
--  [Authentication](https://kubernetes.io/docs/admin/authentication/)
+- [Authentication](https://kubernetes.io/docs/admin/authentication/)
 
 Further reading:
 
 - [Single Sign-On for Kubernetes: An Introduction](https://thenewstack.io/kubernetes-single-sign-one-less-identity/) by Joel Speed
 - [Let's Encrypt, OAuth 2, and Kubernetes Ingress](https://eng.fromatob.com/post/2017/02/lets-encrypt-oauth-2-and-kubernetes-ingress/) by Ian Chiles
 - [Comparing Kubernetes Authentication Methods](https://medium.com/@etienne_24233/comparing-kubernetes-authentication-methods-6f538d834ca7by) Etienne Dilocker
+
+Tooling:
+
+- [coreos/dex](https://github.com/coreos/dex)
+- [heptio/authenticator](https://github.com/heptio/authenticator)
+- [hashicorp/vault-plugin-auth-kubernetes](https://github.com/hashicorp/vault-plugin-auth-kubernetes)
 
 ### Authorization
 
@@ -75,6 +75,10 @@ Further reading:
 - [Configure RBAC In Your Kubernetes Cluster](https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/) via Bitnami
 - [Using RBAC, Generally Available in Kubernetes v1.8](https://kubernetes.io/blog/2017/10/using-rbac-generally-available-18/) by Eric Chiang
 
+Tooling:
+
+- [liggitt/audit2rbac](https://github.com/liggitt/audit2rbac)
+
 ## Securing your container images
 
 Further reading:
@@ -86,21 +90,16 @@ Further reading:
 - [The OpenShift Build Process](https://docs.openshift.com/container-platform/3.9/security/build_process.html)
 - [Introducing Grafeas: An open-source API to audit and govern your software supply chain](https://cloudplatform.googleblog.com/2017/10/introducing-grafeas-open-source-api-.html)
 - [Secure Kubernetes Application Delivery](https://docs.google.com/presentation/d/1ZZPJd_b_p6bTQhUk3KqJW63fwzXZidcTAyyJ6PXpTSI/)
+- [Set up Security Scanning in DTR](https://docs.docker.com/datacenter/dtr/2.4/guides/admin/configure/set-up-vulnerability-scans/)
 
 Tooling:
 
-- https://docs.docker.com/docker-cloud/builds/image-scan/ 
-- https://github.com/coreos/clair 
-- https://www.open-scap.org/tools/ 
-- https://www.aquasec.com/use-cases/continuous-image-assurance/ 
-- https://neuvector.com/container-compliance-auditing-solutions/ 
-- https://github.com/theupdateframework/notary 
-- https://github.com/in-toto 
-- https://github.com/kelseyhightower/konfd 
-- https://github.com/hashicorp/vault-plugin-auth-kubernetes 
-- https://github.com/bitnami-labs/sealed-secrets
-- https://github.com/shyiko/kubesec  
-- https://github.com/weaveworks/flux 
+- [OpenSCAP tools](https://www.open-scap.org/tools/) 
+- [coreos/clair](https://github.com/coreos/clair) 
+- [theupdateframework/notary](https://github.com/theupdateframework/notary)
+- [in-toto](https://github.com/in-toto) 
+- [kelseyhightower/konfd](https://github.com/kelseyhightower/konfd) 
+- [weaveworks/flux](https://github.com/weaveworks/flux) 
 
 ## Running containers securely
 
@@ -124,12 +123,12 @@ Further reading:
 
 Tooling:
 
-- https://github.com/aquasecurity/kube-bench
-- https://github.com/docker/docker-bench-security 
-- https://sysdig.com/opensource/falco/ 
-- https://kubesec.io/
-- https://www.twistlock.com/ 
-- https://github.com/genuinetools/bane
+- [Shopify/kubeaudit](https://github.com/Shopify/kubeaudit)
+- [aquasecurity/kube-bench](https://github.com/aquasecurity/kube-bench)
+- [docker/docker-bench-security](https://github.com/docker/docker-bench-security)
+- [opensource/falco/](https://sysdig.com/opensource/falco/) 
+- [genuinetools/bane](https://github.com/genuinetools/bane)
+- [kubesec.io](https://kubesec.io/)
 
 ## Secrets management
 
@@ -145,6 +144,11 @@ Further reading:
 - [Using AWS KMS for application secrets in Kubernetes](https://medium.com/@mtreacher/using-aws-kms-for-application-secrets-in-kubernetes-149ffb6b4073)
 - [Injecting secrets with Aqua](https://blog.aquasec.com/injecting-secrets-kubernetes-hashicorp-vault-and-aqua-on-azure)
 - [Your secret's safe with me](https://www.youtube.com/watch?v=y5gfvEO_cjY)
+
+Tooling:
+
+- [bitnami-labs/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)
+- [shyiko/kubesec](https://github.com/shyiko/kubesec)
 
 ## Advanced Topics
 
@@ -162,10 +166,10 @@ Further reading:
 
 Tooling:
 
-- https://github.com/aporeto-inc/trireme-kubernetes 
-- https://github.com/jetstack/cert-manager/ 
-- https://spiffe.io/ 
-- https://www.openpolicyagent.org/ 
+- [aporeto-inc/trireme-kubernetes](https://github.com/aporeto-inc/trireme-kubernetes) 
+- [jetstack/cert-manager](https://github.com/jetstack/cert-manager/ )
+- [SPIFFE](https://spiffe.io/) 
+- [Open Policy Agent](https://www.openpolicyagent.org/) 
 
 ## References
 
@@ -189,6 +193,12 @@ Kubernetes (v1.10) docs references relevant to security:
 - `kubectl create role`
 - `kubectl create rolebinding`
 - `kubectl auth can-i`
+
+### Providers
+
+- [Aqua Security](https://www.aquasec.com/)
+- [Twistlock](https://www.twistlock.com/platform/)
+- [Neuvector](https://neuvector.com/)
 
 ---
 
