@@ -33,6 +33,8 @@ Further reading:
 - [Kubernetes Container Clustering, Catastrophe](https://www.youtube.com/watch?v=b3qJwIttqqs)
 - [Hardening Kubernetes from Scratch](https://github.com/hardening-kubernetes/from-scratch)
 - [Analysis of a Kubernetes hack — Backdooring through kubelet](https://medium.com/handy-tech/analysis-of-a-kubernetes-hack-backdooring-through-kubelet-823be5c3d67c)
+- [11 Ways (Not) to get Hacked](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/) 
+- [Testing access to the Kubelet API](https://gist.github.com/lizrice/c32740fac51db2a5518f06c3dae4944f)
 
 Tooling:
 
@@ -115,6 +117,7 @@ Further reading:
 - [Using Docker tags to mess with people’s minds](https://medium.com/microscaling-systems/using-docker-tags-to-mess-with-peoples-minds-367bb2c93bd0)
 - [If you run SSHD in your Docker containers, you're doing it wrong!](https://jpetazzo.github.io/2014/06/23/docker-ssh-considered-evil/)
 - [Creating Effective Images](https://www.youtube.com/watch?v=pPsREQbf3PA)
+- [How to containerize your Go code](https://www.safaribooksonline.com/library/view/how-to-containerize/9781491982310/)
 - [Building Container Images Securely on Kubernetes](https://blog.jessfraz.com/post/building-container-images-securely-on-kubernetes/)
 - [The OpenShift Build Process](https://docs.openshift.com/container-platform/3.9/security/build_process.html)
 - [Introducing Grafeas: An open-source API to audit and govern your software supply chain](https://cloudplatform.googleblog.com/2017/10/introducing-grafeas-open-source-api-.html)
@@ -161,7 +164,7 @@ Further reading:
 - [NIST Special Publication 800-190: Application Container Security Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)
 - [Kubernetes Security Best Practices](https://www.youtube.com/watch?v=pzAwTC8KYV8)
 - [Securing Kubernetes Cluster Networking](https://ahmet.im/blog/kubernetes-network-policy/)
-- [Tutorials and Recipes for Kubernetes Network Policies feature](https://github.com/ahmetb/kubernetes-network-policy-recipes) 
+- [Tutorials and Recipes for Kubernetes Network Policies feature](https://github.com/ahmetb/kubernetes-network-policy-recipes)
 - [Kubernetes Security Context and Kubernetes Network Policy](https://sysdig.com/blog/kubernetes-security-psp-network-policy/) 
 - [Continuous Kubernetes Security](https://www.youtube.com/watch?v=YtrA7eauSSg)
 - [Cilium: Making BPF Easy on Kubernetes for Improved Security, Performance](https://thenewstack.io/cilium-making-bpf-easy-on-kubernetes-for-improved-security-performance/)
@@ -209,6 +212,7 @@ Tooling:
 - [A step by step guide for getting started with Grafeas and Kubernetes](https://github.com/kelseyhightower/grafeas-tutorial)
 - [Network Nano-Segmentation for Container Security in Aqua 2.0](https://blog.aquasec.com/network-nano-segmentation-for-container-security-in-aqua-2.0)
 - [Using Network Policy in concert with Istio](https://www.projectcalico.org/using-network-policy-in-concert-with-istio/)
+- [Multi-tenancy in Kubernetes](https://www.youtube.com/watch?v=xygE8DbwJ7c)
 - [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876)
 - [PIDs per Pod limit](https://blog.jetstack.io/blog/hidden-gems-1.10/#pids-per-pod-limit)
 - [Lessons from the Cryptojacking Attack at Tesla](https://redlock.io/blog/cryptojacking-tesla)
