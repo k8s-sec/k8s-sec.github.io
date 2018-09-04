@@ -89,7 +89,9 @@ Tooling:
 Relevant pages in the official Kubernetes documentation:
 
 - [Authorization](https://kubernetes.io/docs/admin/authorization/)
+- [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Controlling Access to the Kubernetes API](https://kubernetes.io/docs/reference/access-authn-authz/controlling-access/)
+- [Configure Service Accounts for Pods](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
 
 Further reading:
 
@@ -100,6 +102,8 @@ Further reading:
 Tooling:
 
 - [liggitt/audit2rbac](https://github.com/liggitt/audit2rbac)
+- [reactiveops/rbac-manager](https://github.com/reactiveops/rbac-manager)
+- [jtblin/kube2iam](https://github.com/jtblin/kube2iam)
 
 ## Securing your container images
 
