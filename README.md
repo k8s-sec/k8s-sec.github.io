@@ -177,6 +177,8 @@ Tooling:
 Relevant pages in the official Kubernetes documentation:
 
 - [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
+- [Securing etcd clusters](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#securing-etcd-clusters)
+- [Distribute Credentials Securely Using Secrets](https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/)
 
 Further reading:
 
@@ -186,6 +188,8 @@ Further reading:
 - [Using AWS KMS for application secrets in Kubernetes](https://medium.com/@mtreacher/using-aws-kms-for-application-secrets-in-kubernetes-149ffb6b4073)
 - [Injecting secrets with Aqua](https://blog.aquasec.com/injecting-secrets-kubernetes-hashicorp-vault-and-aqua-on-azure)
 - [Your secret's safe with me](https://www.youtube.com/watch?v=y5gfvEO_cjY)
+- [How you could be leaking your secrets onto GitHub](https://www.infoworld.com/article/3064355/security/how-you-might-be-leaking-your-secrets-onto-github.html)
+- [The problems with forcing regular password expiry](https://www.ncsc.gov.uk/articles/problems-forcing-regular-password-expiry)
 
 Tooling:
 
