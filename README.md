@@ -141,12 +141,16 @@ Tooling:
 
 Relevant pages in the official Kubernetes documentation:
 
+- [Configure Quality of Service for Pods](https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/)
 - [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 - [Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
 
 Further reading:
 
 - [Just say no to root (in containers)](https://opensource.com/article/18/3/just-say-no-root-containers)
+- [Non-privileged containers FTW!](http://canihaznonprivilegedcontainers.info/)
+- [Running with Scissors](https://www.youtube.com/watch?v=ltrV-Qmh3oY)
+- [Containers are a lie](https://articles.microservices.com/containers-are-a-lie-2521afda1f81)
 - Exploring Container Mechanisms Through the Story of a Syscall: [slides](https://schd.ws/hosted_files/kccnceu18/46/Exploring%20container%20mechanisms%20through%20the%20story%20of%20a%20syscall.pdf), [video](https://www.youtube.com/watch?v=1Tl-NURLoq4)
 - [Improving your Kubernetes Workload Security](https://www.youtube.com/watch?v=T_NxDXAdbfo)
 - Container Isolation at Scale (Introducing gVisor): [slides](https://schd.ws/hosted_files/kccnceu18/47/Container%20Isolation%20at%20Scale.pdf), [video](https://www.youtube.com/watch?v=pWyJahTWa4I)
@@ -155,7 +159,11 @@ Further reading:
 - [Security Best Practices for Kubernetes Deployment](https://kubernetes.io/blog/2016/08/security-best-practices-kubernetes-deployment/) 
 - [NIST Special Publication 800-190: Application Container Security Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)
 - [Kubernetes Security Best Practices](https://www.youtube.com/watch?v=pzAwTC8KYV8)
+- [Securing Kubernetes Cluster Networking](https://ahmet.im/blog/kubernetes-network-policy/)
+- [Tutorials and Recipes for Kubernetes Network Policies feature](https://github.com/ahmetb/kubernetes-network-policy-recipes) 
+- [Kubernetes Security Context and Kubernetes Network Policy](https://sysdig.com/blog/kubernetes-security-psp-network-policy/) 
 - [Continuous Kubernetes Security](https://www.youtube.com/watch?v=YtrA7eauSSg)
+- [Cilium: Making BPF Easy on Kubernetes for Improved Security, Performance](https://thenewstack.io/cilium-making-bpf-easy-on-kubernetes-for-improved-security-performance/)
 
 Tooling:
 
@@ -194,9 +202,6 @@ Relevant pages in the official Kubernetes documentation:
 Further reading:
 
 - [How Kubernetes certificate authorities work](https://jvns.ca/blog/2017/08/05/how-kubernetes-certificates-work/) 
-- [Securing Kubernetes Cluster Networking](https://ahmet.im/blog/kubernetes-network-policy/)
-- [Tutorials and Recipes for Kubernetes Network Policies feature](https://github.com/ahmetb/kubernetes-network-policy-recipes) 
-- [Kubernetes Security Context and Kubernetes Network Policy](https://sysdig.com/blog/kubernetes-security-psp-network-policy/) 
 - [Kubernetes Application Operator Basics](https://blog.openshift.com/kubernetes-application-operator-basics/) 
 
 Tooling:
