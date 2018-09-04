@@ -1,4 +1,8 @@
-Hello and welcome to Kubernetes Security, the resource center for the O'Reilly book on this topic by Liz Rice and Michael Hausenblas. The book is expected to be published by fall 2018. 
+Hello and welcome to Kubernetes Security, the resource center for the O'Reilly book on this topic by Liz Rice and Michael Hausenblas.
+
+![Kubernetes Security book cover](assets/img/cover.png)
+
+The book is expected to be published by fall 2018. 
 
 Table of contents:
 
