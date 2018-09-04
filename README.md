@@ -7,7 +7,7 @@ Table of contents:
 - [Securing your container images](#securing-your-container-images)
 - [Running containers securely](#running-containers-securely)
 - [Secrets management](#secrets-management)
-- [Advanced Topics](#advanced-topics)
+- [Advanced topics](#advanced-topics)
 - [References](#references)
 
 ## Securing the cluster
@@ -197,7 +197,7 @@ Tooling:
 - [bitnami-labs/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)
 - [shyiko/kubesec](https://github.com/shyiko/kubesec)
 
-## Advanced Topics
+## Advanced topics
 
 Relevant pages in the official Kubernetes documentation:
 
@@ -206,12 +206,29 @@ Relevant pages in the official Kubernetes documentation:
 Further reading:
 
 - [How Kubernetes certificate authorities work](https://jvns.ca/blog/2017/08/05/how-kubernetes-certificates-work/) 
-- [Kubernetes Application Operator Basics](https://blog.openshift.com/kubernetes-application-operator-basics/) 
+- [Kubernetes Application Operator Basics](https://blog.openshift.com/kubernetes-application-operator-basics/)
+- [Are your servers PETS or CATTLE?](https://www.theregister.co.uk/2013/03/18/servers_pets_or_cattle_cern/)
+- [Principles of Chaos Engineering](https://principlesofchaos.org/)
+- [gVisor in depth](https://blog.loof.fr/2018/06/gvisor-in-depth.html)
+- [Nabla containers: a new approach to container isolation](https://nabla-containers.github.io/)
+- [A step by step guide for getting started with Grafeas and Kubernetes](https://github.com/kelseyhightower/grafeas-tutorial)
+- [Network Nano-Segmentation for Container Security in Aqua 2.0](https://blog.aquasec.com/network-nano-segmentation-for-container-security-in-aqua-2.0)
+- [Using Network Policy in concert with Istio](https://www.projectcalico.org/using-network-policy-in-concert-with-istio/)
+- [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876)
+- [PIDs per Pod limit](https://blog.jetstack.io/blog/hidden-gems-1.10/#pids-per-pod-limit)
+- [Lessons from the Cryptojacking Attack at Tesla](https://redlock.io/blog/cryptojacking-tesla)
+- [Cryptocurrency Miners Abusing Containers: Anatomy of an (Attempted) Attack](https://blog.aquasec.com/cryptocurrency-miners-abusing-containers-anatomy-of-an-attempted-attack)
 
 Tooling:
 
+- [Prometheus](https://prometheus.io/)
+- [Istio](https://istio.io/)
+- [Linkerd](https://linkerd.io/)
+- [Open Vulnerability and Assessment Language](https://oval.mitre.org/index.html)
 - [aporeto-inc/trireme-kubernetes](https://github.com/aporeto-inc/trireme-kubernetes) 
-- [jetstack/cert-manager](https://github.com/jetstack/cert-manager/ )
+- [jetstack/cert-manager](https://github.com/jetstack/cert-manager/)
+- [Kata Containers](https://katacontainers.io/)
+- [google/gvisor](https://github.com/google/gvisor)
 - [SPIFFE](https://spiffe.io/) 
 - [Open Policy Agent](https://www.openpolicyagent.org/) 
 
