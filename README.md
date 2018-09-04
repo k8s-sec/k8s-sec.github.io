@@ -251,11 +251,11 @@ API and resource references relevant to security (Kubernetes v1.11) docs:
 
 ### Useful `kubectl` commands
 
-- `kubectl create secret`
-- `kubectl create serviceaccount`
-- `kubectl create role`
-- `kubectl create rolebinding`
-- `kubectl auth can-i`
+- `kubectl create secret` … [docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-secret-em-)
+- `kubectl create serviceaccount` … [docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-serviceaccount-em-)
+- `kubectl create role` … [docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-role-em-)
+- `kubectl create rolebinding` … [docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-rolebinding-em-)
+- `kubectl auth can-i` … [docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-can-i-em-)
 
 ### Providers
 
