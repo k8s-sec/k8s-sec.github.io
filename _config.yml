@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+title: Kubernetes Security
+description: Accompanying resources for the O'Reilly book
+show_downloads: false
+logo: /assets/img/logo.png
+google_analytics:
