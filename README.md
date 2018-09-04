@@ -144,6 +144,7 @@ Relevant pages in the official Kubernetes documentation:
 - [Configure Quality of Service for Pods](https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/)
 - [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 - [Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
+- [Network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
 Further reading:
 
@@ -168,7 +169,7 @@ Further reading:
 Tooling:
 
 - [Shopify/kubeaudit](https://github.com/Shopify/kubeaudit)
-- [opensource/falco/](https://sysdig.com/opensource/falco/) 
+- [opensource/falco](https://sysdig.com/opensource/falco/) 
 - [genuinetools/bane](https://github.com/genuinetools/bane)
 - [kubesec.io](https://kubesec.io/)
 
@@ -198,12 +199,6 @@ Tooling:
 - [shyiko/kubesec](https://github.com/shyiko/kubesec)
 
 ## Advanced topics
-
-Relevant pages in the official Kubernetes documentation:
-
-- [Network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
-
-Further reading:
 
 - [How Kubernetes certificate authorities work](https://jvns.ca/blog/2017/08/05/how-kubernetes-certificates-work/) 
 - [Kubernetes Application Operator Basics](https://blog.openshift.com/kubernetes-application-operator-basics/)
