@@ -16,10 +16,13 @@ Relevant pages in the official Kubernetes documentation:
 
 - [Securing a Cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
 - [Encrypting Secret Data at Rest](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/)
+- [Installation—Recommended setup](https://github.com/kubernetes/dashboard/wiki/Installation#recommended-setup)
 - [Auditing](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)
+- [Certificate Rotation](https://kubernetes.io/docs/tasks/tls/certificate-rotation/)
 
 Further reading:
 
+- etcd's [transport security model](https://github.com/etcd-io/etcd/blob/master/Documentation/op-guide/security.md)
 - [Securing Kubernetes components: kubelet, etcd and Docker registry](https://sysdig.com/blog/kubernetes-security-kubelet-etcd/) 
 - [K8s security best practices](https://www.slideshare.net/SharonVendrov/k8s-security-best-practices-85961183) 
 - [Kubernetes Security - Best Practice Guide](https://github.com/freach/kubernetes-security-best-practice) 
@@ -29,12 +32,17 @@ Further reading:
 - [A Hacker's Guide to Kubernetes and the Cloud](https://www.youtube.com/watch?v=dxKpCO2dAy8)
 - [Kubernetes Container Clustering, Catastrophe](https://www.youtube.com/watch?v=b3qJwIttqqs)
 - [Hardening Kubernetes from Scratch](https://github.com/hardening-kubernetes/from-scratch)
+- [Analysis of a Kubernetes hack — Backdooring through kubelet](https://medium.com/handy-tech/analysis-of-a-kubernetes-hack-backdooring-through-kubelet-823be5c3d67c)
 
 Tooling:
 
-- [k8guard.github.io](https://k8guard.github.io/)
+- Center for Internet Security (CIS) [Benchmark for Kubernetes](https://www.cisecurity.org/benchmark/kubernetes/)
+- Center for Internet Security (CIS) [Benchmark for Docker](https://www.cisecurity.org/benchmark/docker/)
+- [aquasecurity/kube-bench](https://github.com/aquasecurity/kube-bench)
 - [aquasecurity/kube-hunter](https://github.com/aquasecurity/kube-hunter)
-- [bgeesaman/kubeatf](https://github.com/bgeesaman/kubeatf) 
+- [k8guard.github.io](https://k8guard.github.io/)
+- [bgeesaman/kubeatf](https://github.com/bgeesaman/kubeatf)
+- [docker/docker-bench-security](https://github.com/docker/docker-bench-security)
 
 ## Authentication and authorization
 
@@ -124,8 +132,6 @@ Further reading:
 Tooling:
 
 - [Shopify/kubeaudit](https://github.com/Shopify/kubeaudit)
-- [aquasecurity/kube-bench](https://github.com/aquasecurity/kube-bench)
-- [docker/docker-bench-security](https://github.com/docker/docker-bench-security)
 - [opensource/falco/](https://sysdig.com/opensource/falco/) 
 - [genuinetools/bane](https://github.com/genuinetools/bane)
 - [kubesec.io](https://kubesec.io/)
