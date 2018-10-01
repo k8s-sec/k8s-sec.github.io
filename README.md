@@ -1,8 +1,8 @@
-Hello and welcome to Kubernetes Security, the resource center for the O'Reilly book on this topic by Liz Rice and Michael Hausenblas.
+Hello and welcome to Kubernetes Security, the resource center for the [O'Reilly book](https://info.aquasec.com/kubernetes-security) on this topic by Liz Rice and Michael Hausenblas.
 
 ![Kubernetes Security book cover](assets/img/cover.png)
 
-The book is expected to be published by fall 2018. 
+In the book we explore security concepts including defense in depth, least privilege, and limiting the attack surface. We discuss and show how to secure clusters, and you'll also learn how Kubernetes uses authentication and authorization. The book will teache you how to secure container images against known vulnerabilities and abuse by third parties, enforce policies on the container runtime level as well as the networking level, and give you to rundown on how to handle sensitive information such as credentials. 
 
 ### Table of contents
 
@@ -129,6 +129,8 @@ Further reading:
 - [Introducing Grafeas: An open-source API to audit and govern your software supply chain](https://cloudplatform.googleblog.com/2017/10/introducing-grafeas-open-source-api-.html)
 - [Secure Kubernetes Application Delivery](https://docs.google.com/presentation/d/1ZZPJd_b_p6bTQhUk3KqJW63fwzXZidcTAyyJ6PXpTSI/)
 - [Set up Security Scanning in DTR](https://docs.docker.com/datacenter/dtr/2.4/guides/admin/configure/set-up-vulnerability-scans/)
+- [Pain spotting: Russia's Aeroflot Docker server lands internal source code, config files on public internet](https://www.theregister.co.uk/2018/09/26/aeroflot_server_code_open/)
+
 
 Tooling:
 
