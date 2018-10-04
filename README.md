@@ -82,7 +82,8 @@ Further reading:
 - [Single Sign-On for Kubernetes: An Introduction](https://thenewstack.io/kubernetes-single-sign-one-less-identity/) by Joel Speed
 - [Let's Encrypt, OAuth 2, and Kubernetes Ingress](https://eng.fromatob.com/post/2017/02/lets-encrypt-oauth-2-and-kubernetes-ingress/) by Ian Chiles
 - [Comparing Kubernetes Authentication Methods](https://medium.com/@etienne_24233/comparing-kubernetes-authentication-methods-6f538d834ca7by) Etienne Dilocker
-- [k8s auth proxy example](http://uptoknow.blogspot.com/2017/06/kubernetes-authentication-proxy-example.html)
+- [K8s auth proxy example](http://uptoknow.blogspot.com/2017/06/kubernetes-authentication-proxy-example.html)
+- [K8s authentication with Conjur](https://blog.conjur.org/kubernetes-authentication)
 
 Tooling:
 
@@ -91,6 +92,7 @@ Tooling:
 - [heptio/authenticator](https://github.com/heptio/authenticator)
 - [hashicorp/vault-plugin-auth-kubernetes](https://github.com/hashicorp/vault-plugin-auth-kubernetes)
 - [appscode/guard](https://github.com/appscode/guard)
+- [cyberark/conjur](https://github.com/cyberark/conjur)
 
 ### Authorization
 
@@ -202,12 +204,14 @@ Further reading:
 - [Your secret's safe with me](https://www.youtube.com/watch?v=y5gfvEO_cjY)
 - [How you could be leaking your secrets onto GitHub](https://www.infoworld.com/article/3064355/security/how-you-might-be-leaking-your-secrets-onto-github.html)
 - [The problems with forcing regular password expiry](https://www.ncsc.gov.uk/articles/problems-forcing-regular-password-expiry)
+- [Managing Secrets in OpenShift with CyberArk Conjur and the CyberArk Vault](https://blog.openshift.com/managing-secrets-in-openshift-containers-with-cyberark-conjur-and-the-cyberark-vault/)
 
 Tooling:
 
 - [kelseyhightower/konfd](https://github.com/kelseyhightower/konfd) 
 - [bitnami-labs/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)
 - [shyiko/kubesec](https://github.com/shyiko/kubesec)
+- [cyberark/conjur](https://github.com/cyberark/conjur)
 
 ## Advanced topics
 
