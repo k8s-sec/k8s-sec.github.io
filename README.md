@@ -28,6 +28,8 @@ Relevant pages in the official Kubernetes documentation:
 
 Further reading:
 
+
+- [CVE-2018-1002105—Kubernetes privilege escalation and access to sensitive information](https://www.theregister.co.uk/2018/12/03/kubernetes_flaw_cve_2018_1002105/)
 - etcd's [transport security model](https://github.com/etcd-io/etcd/blob/master/Documentation/op-guide/security.md)
 - [Securing Kubernetes components: kubelet, etcd and Docker registry](https://sysdig.com/blog/kubernetes-security-kubelet-etcd/) 
 - [K8s security best practices](https://www.slideshare.net/SharonVendrov/k8s-security-best-practices-85961183) 
