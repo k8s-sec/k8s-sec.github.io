@@ -189,6 +189,8 @@ Tooling:
 - [opensource/falco](https://sysdig.com/opensource/falco/) 
 - [genuinetools/bane](https://github.com/genuinetools/bane)
 - [kubesec.io](https://kubesec.io/)
+- [Sysdig Inspect](https://github.com/draios/sysdig-inspect)
+- [kube-psp-advisor](https://sysdig.com/blog/enable-kubernetes-pod-security-policy/)
 
 ## Secrets management
 
@@ -277,6 +279,7 @@ API and resource references relevant to security (Kubernetes v1.11) docs:
 - [Aqua Security](https://www.aquasec.com/)
 - [Twistlock](https://www.twistlock.com/platform/)
 - [Neuvector](https://neuvector.com/)
+- [Sysdig Secure](https://sysdig.com/products/secure/)
 
 ---
 
