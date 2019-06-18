@@ -211,6 +211,7 @@ Further reading:
 - [How you could be leaking your secrets onto GitHub](https://www.infoworld.com/article/3064355/security/how-you-might-be-leaking-your-secrets-onto-github.html)
 - [The problems with forcing regular password expiry](https://www.ncsc.gov.uk/articles/problems-forcing-regular-password-expiry)
 - [Managing Secrets in OpenShift with CyberArk Conjur and the CyberArk Vault](https://blog.openshift.com/managing-secrets-in-openshift-containers-with-cyberark-conjur-and-the-cyberark-vault/)
+- [Can Kubernetes Keep a Secret? GitOps secret management on Kubernetes Platform](https://blog.solutotlv.com/can-kubernetes-keep-a-secret)
 
 Tooling:
 
@@ -218,6 +219,7 @@ Tooling:
 - [bitnami-labs/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)
 - [shyiko/kubesec](https://github.com/shyiko/kubesec)
 - [cyberark/conjur](https://github.com/cyberark/conjur)
+- [soluto/kamus](https://kamus.soluto.io)
 
 ## Advanced topics
 
