@@ -71,6 +71,7 @@ Tooling:
 
 - [jwt.io](https://jwt.io/)
 - [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/)
+- [kubectl-who-can)(https://github.com/aquasecurity/kubectl-who-can) - a kubectl plugin for seeing which identities have permission to perform a given action on a given set of resources
 
 ### Authentication
 
