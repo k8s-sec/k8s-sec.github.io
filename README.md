@@ -238,6 +238,7 @@ Tooling:
 - [PIDs per Pod limit](https://blog.jetstack.io/blog/hidden-gems-1.10/#pids-per-pod-limit)
 - [Lessons from the Cryptojacking Attack at Tesla](https://redlock.io/blog/cryptojacking-tesla)
 - [Cryptocurrency Miners Abusing Containers: Anatomy of an (Attempted) Attack](https://blog.aquasec.com/cryptocurrency-miners-abusing-containers-anatomy-of-an-attempted-attack)
+- [Kubernetes Goat - Intentionally vulnerable cluster environment to learn and practice Kubernetes security](https://github.com/madhuakula/kubernetes-goat)
 
 Tooling:
 
